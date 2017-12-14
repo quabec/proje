@@ -16,5 +16,12 @@ namespace ders_proje
         {
             InitializeComponent();
         }
+
+        private void müşteriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Musteriler frm2 = new Musteriler();
+            frm2.MdiParent = this;
+            frm2.Show();
+        }
     }
 }
