@@ -23,5 +23,10 @@ namespace ders_proje
             frm2.MdiParent = this;
             frm2.Show();
         }
+
+        private void müşteriİşlemleriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
