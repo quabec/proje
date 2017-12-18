@@ -86,8 +86,9 @@
             // hesapEkleToolStripMenuItem
             // 
             this.hesapEkleToolStripMenuItem.Name = "hesapEkleToolStripMenuItem";
-            this.hesapEkleToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.hesapEkleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.hesapEkleToolStripMenuItem.Text = "Hesap Ekle";
+            this.hesapEkleToolStripMenuItem.Click += new System.EventHandler(this.hesapEkleToolStripMenuItem_Click);
             // 
             // paraTransfleriToolStripMenuItem
             // 

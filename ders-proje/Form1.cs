@@ -34,5 +34,12 @@ namespace ders_proje
         {
 
         }
+
+        private void hesapEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMusteriHesapEkle frmMusteriHesapEkle = new frmMusteriHesapEkle();
+            frmMusteriHesapEkle.MdiParent = this;
+            frmMusteriHesapEkle.Show();
+        }
     }
 }

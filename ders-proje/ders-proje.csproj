@@ -59,6 +59,12 @@
     <Compile Include="frmMusteri.Designer.cs">
       <DependentUpon>frmMusteri.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMusteriHesapEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMusteriHesapEkle.Designer.cs">
+      <DependentUpon>frmMusteriHesapEkle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hesap.cs" />
     <Compile Include="Kurumsal.cs" />
     <Compile Include="Musteri.cs" />

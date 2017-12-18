@@ -44,6 +44,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txt_musteri_no = new System.Windows.Forms.TextBox();
             this.btnSil = new System.Windows.Forms.Button();
+            this.bireyselHesap = new System.Windows.Forms.RadioButton();
+            this.kurumsalHesap = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -80,28 +82,31 @@
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Controls.Add(this.kurumsalHesap, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.txtMNO, 1, 2);
             this.tableLayoutPanel2.Controls.Add(this.txtSoyad, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label4, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label5, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.btnEkle, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.txtAd, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnEkle, 1, 4);
+            this.tableLayoutPanel2.Controls.Add(this.bireyselHesap, 0, 3);
             this.tableLayoutPanel2.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(27, 196);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 4;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(317, 178);
+            this.tableLayoutPanel2.RowCount = 5;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(317, 189);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // txtMNO
             // 
             this.txtMNO.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMNO.Location = new System.Drawing.Point(161, 100);
+            this.txtMNO.Location = new System.Drawing.Point(161, 82);
             this.txtMNO.Name = "txtMNO";
             this.txtMNO.Size = new System.Drawing.Size(153, 20);
             this.txtMNO.TabIndex = 6;
@@ -109,7 +114,7 @@
             // txtSoyad
             // 
             this.txtSoyad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSoyad.Location = new System.Drawing.Point(161, 56);
+            this.txtSoyad.Location = new System.Drawing.Point(161, 45);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(153, 20);
             this.txtSoyad.TabIndex = 5;
@@ -118,7 +123,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(132, 15);
+            this.label3.Location = new System.Drawing.Point(132, 12);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(23, 13);
             this.label3.TabIndex = 0;
@@ -128,7 +133,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(115, 59);
+            this.label4.Location = new System.Drawing.Point(115, 49);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 1;
@@ -138,7 +143,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(64, 103);
+            this.label5.Location = new System.Drawing.Point(64, 86);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(91, 13);
             this.label5.TabIndex = 2;
@@ -147,7 +152,7 @@
             // btnEkle
             // 
             this.btnEkle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEkle.Location = new System.Drawing.Point(161, 143);
+            this.btnEkle.Location = new System.Drawing.Point(161, 157);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(153, 23);
             this.btnEkle.TabIndex = 3;
@@ -158,7 +163,7 @@
             // txtAd
             // 
             this.txtAd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAd.Location = new System.Drawing.Point(161, 12);
+            this.txtAd.Location = new System.Drawing.Point(161, 8);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(153, 20);
             this.txtAd.TabIndex = 4;
@@ -233,6 +238,30 @@
             this.btnSil.UseVisualStyleBackColor = true;
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
+            // bireyselHesap
+            // 
+            this.bireyselHesap.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.bireyselHesap.AutoSize = true;
+            this.bireyselHesap.Location = new System.Drawing.Point(94, 121);
+            this.bireyselHesap.Name = "bireyselHesap";
+            this.bireyselHesap.Size = new System.Drawing.Size(61, 17);
+            this.bireyselHesap.TabIndex = 7;
+            this.bireyselHesap.TabStop = true;
+            this.bireyselHesap.Text = "Bireysel";
+            this.bireyselHesap.UseVisualStyleBackColor = true;
+            // 
+            // kurumsalHesap
+            // 
+            this.kurumsalHesap.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.kurumsalHesap.AutoSize = true;
+            this.kurumsalHesap.Location = new System.Drawing.Point(161, 121);
+            this.kurumsalHesap.Name = "kurumsalHesap";
+            this.kurumsalHesap.Size = new System.Drawing.Size(153, 17);
+            this.kurumsalHesap.TabIndex = 8;
+            this.kurumsalHesap.TabStop = true;
+            this.kurumsalHesap.Text = "Kurumsal";
+            this.kurumsalHesap.UseVisualStyleBackColor = true;
+            // 
             // frmMusteri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -277,5 +306,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txt_musteri_no;
         private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.RadioButton kurumsalHesap;
+        private System.Windows.Forms.RadioButton bireyselHesap;
     }
 }
