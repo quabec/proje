@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ders_proje
 {
-    class Hesap
+    public abstract class Hesap
     {
+        public long hesapno { get; set; }
+        public abstract void hesapNo();
+
+        public Random rnd = new Random();
+
     }
 }

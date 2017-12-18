@@ -13,12 +13,17 @@ namespace ders_proje
         public void MusteriEkle(Musteri m)
         {
             musteriler.Add(m);
+            
         }
 
-        public void MusteriSil(Musteri m)
+        public void MusteriSil(int no)
         {
-            musteriler.Remove(m);
+            Musteri toRemove= musteriler.Where(x => x.musteriNo == no).FirstOrDefault();
+
+            musteriler.Remove(toRemove);
+
         }
+        
 
         public List<Musteri> Listele()
         {

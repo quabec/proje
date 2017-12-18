@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ders_proje
 {
-    public class Musteri
+    public class Musteri:Banka
     {
         public int musteriNo { get; set; }
         public string musteriAd { get; set; }
         public string musteriSoyad { get; set; }
+        
 
     }
 }

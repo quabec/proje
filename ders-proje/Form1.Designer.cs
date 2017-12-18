@@ -34,11 +34,13 @@
             this.müşteriİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hesapEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paraTransfleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dövizİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hesaplarımArasıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.başkaHesabaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dövizİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dövizAlışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dövizSatışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.paraYatırToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.paraÇekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,13 +68,16 @@
             // müşteriEkleToolStripMenuItem
             // 
             this.müşteriEkleToolStripMenuItem.Name = "müşteriEkleToolStripMenuItem";
-            this.müşteriEkleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.müşteriEkleToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.müşteriEkleToolStripMenuItem.Text = "Müşteri Ekle";
+            this.müşteriEkleToolStripMenuItem.Click += new System.EventHandler(this.müşteriEkleToolStripMenuItem_Click);
             // 
             // müşteriİşlemleriToolStripMenuItem
             // 
             this.müşteriİşlemleriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hesapEkleToolStripMenuItem});
+            this.hesapEkleToolStripMenuItem,
+            this.paraYatırToolStripMenuItem,
+            this.paraÇekToolStripMenuItem});
             this.müşteriİşlemleriToolStripMenuItem.Name = "müşteriİşlemleriToolStripMenuItem";
             this.müşteriİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
             this.müşteriİşlemleriToolStripMenuItem.Text = "Müşteri İşlemleri";
@@ -81,7 +86,7 @@
             // hesapEkleToolStripMenuItem
             // 
             this.hesapEkleToolStripMenuItem.Name = "hesapEkleToolStripMenuItem";
-            this.hesapEkleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.hesapEkleToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.hesapEkleToolStripMenuItem.Text = "Hesap Ekle";
             // 
             // paraTransfleriToolStripMenuItem
@@ -92,15 +97,6 @@
             this.paraTransfleriToolStripMenuItem.Name = "paraTransfleriToolStripMenuItem";
             this.paraTransfleriToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
             this.paraTransfleriToolStripMenuItem.Text = "Para Transfleri";
-            // 
-            // dövizİşlemleriToolStripMenuItem
-            // 
-            this.dövizİşlemleriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dövizAlışToolStripMenuItem,
-            this.dövizSatışToolStripMenuItem});
-            this.dövizİşlemleriToolStripMenuItem.Name = "dövizİşlemleriToolStripMenuItem";
-            this.dövizİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
-            this.dövizİşlemleriToolStripMenuItem.Text = "Döviz İşlemleri";
             // 
             // hesaplarımArasıToolStripMenuItem
             // 
@@ -114,17 +110,38 @@
             this.başkaHesabaToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.başkaHesabaToolStripMenuItem.Text = "Başka Hesaba";
             // 
+            // dövizİşlemleriToolStripMenuItem
+            // 
+            this.dövizİşlemleriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dövizAlışToolStripMenuItem,
+            this.dövizSatışToolStripMenuItem});
+            this.dövizİşlemleriToolStripMenuItem.Name = "dövizİşlemleriToolStripMenuItem";
+            this.dövizİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
+            this.dövizİşlemleriToolStripMenuItem.Text = "Döviz İşlemleri";
+            // 
             // dövizAlışToolStripMenuItem
             // 
             this.dövizAlışToolStripMenuItem.Name = "dövizAlışToolStripMenuItem";
-            this.dövizAlışToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dövizAlışToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.dövizAlışToolStripMenuItem.Text = "Döviz Alış";
             // 
             // dövizSatışToolStripMenuItem
             // 
             this.dövizSatışToolStripMenuItem.Name = "dövizSatışToolStripMenuItem";
-            this.dövizSatışToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dövizSatışToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.dövizSatışToolStripMenuItem.Text = "Döviz Satış";
+            // 
+            // paraYatırToolStripMenuItem
+            // 
+            this.paraYatırToolStripMenuItem.Name = "paraYatırToolStripMenuItem";
+            this.paraYatırToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.paraYatırToolStripMenuItem.Text = "Para Yatır";
+            // 
+            // paraÇekToolStripMenuItem
+            // 
+            this.paraÇekToolStripMenuItem.Name = "paraÇekToolStripMenuItem";
+            this.paraÇekToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.paraÇekToolStripMenuItem.Text = "Para Çek";
             // 
             // Form1
             // 
@@ -136,6 +153,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -156,6 +174,8 @@
         private System.Windows.Forms.ToolStripMenuItem dövizİşlemleriToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dövizAlışToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dövizSatışToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem paraYatırToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem paraÇekToolStripMenuItem;
     }
 }
 

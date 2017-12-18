@@ -17,14 +17,20 @@ namespace ders_proje
             InitializeComponent();
         }
 
-        private void müşteriToolStripMenuItem_Click(object sender, EventArgs e)
+       
+        private void müşteriİşlemleriToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Musteriler frm2 = new Musteriler();
-            frm2.MdiParent = this;
-            frm2.Show();
+
         }
 
-        private void müşteriİşlemleriToolStripMenuItem_Click(object sender, EventArgs e)
+        private void müşteriEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMusteri frmMusteri = new frmMusteri();
+            frmMusteri.MdiParent = this;
+            frmMusteri.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

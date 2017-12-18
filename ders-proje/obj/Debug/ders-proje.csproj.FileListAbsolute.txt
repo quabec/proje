@@ -3,9 +3,9 @@ C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\bin\Debug\ders-proje
 C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\bin\Debug\ders-proje.pdb
 C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders-proje.csprojResolveAssemblyReference.cache
 C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders_proje.Form1.resources
-C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders_proje.Musteriler.resources
 C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders_proje.Properties.Resources.resources
 C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders-proje.csproj.GenerateResource.Cache
 C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders-proje.csproj.CoreCompileInputs.cache
 C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders-proje.exe
 C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders-proje.pdb
+C:\Users\Osman Mert Acar\source\repos\ders-proje\ders-proje\obj\Debug\ders_proje.frmMusteri.resources

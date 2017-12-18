@@ -46,27 +46,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banka.cs" />
+    <Compile Include="Bireysel.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hesap.cs" />
-    <Compile Include="Musteri.cs" />
-    <Compile Include="Musteriler.cs">
+    <Compile Include="frmMusteri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Musteriler.Designer.cs">
-      <DependentUpon>Musteriler.cs</DependentUpon>
+    <Compile Include="frmMusteri.Designer.cs">
+      <DependentUpon>frmMusteri.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hesap.cs" />
+    <Compile Include="Kurumsal.cs" />
+    <Compile Include="Musteri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Musteriler.resx">
-      <DependentUpon>Musteriler.cs</DependentUpon>
+    <EmbeddedResource Include="frmMusteri.resx">
+      <DependentUpon>frmMusteri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
