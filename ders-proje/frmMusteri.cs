@@ -13,6 +13,8 @@ namespace ders_proje
     public partial class frmMusteri : Form
     {
         Musteri musteri = new Musteri();
+        Banka b = new Banka();
+
         public frmMusteri()
         {
             InitializeComponent();
@@ -29,13 +31,13 @@ namespace ders_proje
             musteri.musteriAd = txtAd.Text;
             musteri.musteriSoyad = txtSoyad.Text;
             musteri.musteriNo = Convert.ToInt16(txtMNO.Text);
-            musteri.MusteriEkle(musteri);
+            b.MusteriEkle(musteri);
 
         }
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            musteri.MusteriSil(Convert.ToInt16(txt_musteri_no.Text));
+            b.MusteriSil(Convert.ToInt16(txt_musteri_no.Text));
            
         }
     }

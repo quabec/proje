@@ -46,7 +46,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banka.cs" />
-    <Compile Include="Bireysel.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,8 +64,6 @@
     <Compile Include="frmMusteriHesapEkle.Designer.cs">
       <DependentUpon>frmMusteriHesapEkle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hesap.cs" />
-    <Compile Include="Kurumsal.cs" />
     <Compile Include="Musteri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
